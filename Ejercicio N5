@@ -1,0 +1,29 @@
+#Ejercicio N-5
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ejercicio.n5;
+
+/**
+ *
+ * @author javie
+ */
+public class EjercicioN5 {
+
+    public static void main(String[] args) {
+        double suma = 0;   // Inicializa SUMA en 0
+        double x = 20;     // Inicializa X en 20
+
+        suma = suma + x;   // SUMA = 20
+
+        double y = 40;     // Inicializa Y en 40
+
+        x = x + Math.pow(y, 2);  // X = 20 + 40² = 1620
+
+        suma = suma + x / y;     // SUMA = 20 + 40.5 = 60.5
+
+        
+        System.out.println("EL VALOR DE LA SUMA ES: " + suma);
+    }
+}
